@@ -17,6 +17,7 @@ body{
 .title{
     text-align: center;
     margin-top: 30px;
+    margin-right: 10%;
     color: #28275c;
     font-size: 22px;
     font-weight:bold;
@@ -374,7 +375,7 @@ footer{
     .card{
         width: 500px;
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 15%;
     }
     
     .image{
@@ -537,7 +538,7 @@ footer{
     .card{
         width: 350px;
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 15%;
         
     }
 
