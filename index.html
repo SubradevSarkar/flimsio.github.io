@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmsio</title>
+    <link rel="icon" href="./img/icon/filmsio-icon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title">
+            <div class="logo" style="display:inline-block">
+                <div class="r1" style="display:inline-block"></div>
+                <div class="r2" style="display:inline-block"></div>
+                <div class="r3" style="display:inline-block"></div>
+            </div>
+            <h1 style="margin: 0px; display:inline-block">Filmsio</h1>
+        </div>
+
+        <div class="search" id="m_search">
+            <input type="text" placeholder="movies..." id="input">
+            <button id="submit" onclick="moviesearch()">submit</button>
+        </div>
+
+
+        <div id="m_card" style="display: none;">
+            <div class="card">
+                <div class="image">
+                    <img src="./img/images.png" alt="movie poster" id="poster">
+                </div>
+
+                <div class="details">
+                    <div class="info">
+                        <h1 id="title">Title</h1>
+                        <div class="base_info">
+
+                            <p class="base">
+                                <span id="rated">rated</span>
+                                <span id="year">year</span>
+                                <span id="dot">&sdot;</span>
+                                <span id="runtime">time</span>
+                            </p>
+
+                            <div class="rating">
+                                <span class="rating">
+                                    <img src="./img/imdb.png" alt="imdb" style="width: 40px;">
+                                    <p id="imdb_rate">rating</p>
+                                </span>
+
+                                <span class="rating">
+                                    <img src="./img/rotten-tomatoes.png" alt="rotten-tomatoes"
+                                        style="width: 20px; height: 21px;">
+                                    <p id="rt_rate">rating</p>
+                                </span>
+                            </div>
+
+                            <p id="genre">Genre</p>
+                            <p id="lan"><span id="country">country</span><span id="language">language</span></p>
+
+                        </div>
+                    </div>
+
+                    <div class="cast">
+                        <table class="cast_table" aria-describedby="cast & crew">
+                            <tr>
+                                <th class="heaf_info" id="dir">Director</th>
+                                <td id="dir_data">: name</td>
+                            </tr>
+                            <tr>
+                                <th class="heaf_info" id="wri">Writer</th>
+                                <td id="wri_data">: name</td>
+                            </tr>
+                            <tr>
+                                <th class="heaf_info" id="act">Actors</th>
+                                <td id="act_data">: name</td>
+                            </tr>
+                            <tr>
+                                <th class="heaf_info" id="aw">Awards</th>
+                                <td id="aw_data">: name</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="plot">
+                        <p id="plot">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam inventore, porro odit
+                            repellat culpa quas doloremque cumque. Sed architecto fugit quis incidunt eveniet modi
+                            laudantium fugiat sit? Porro, harum dolor!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer" id="l_footer">
+        <p class="foot_p" style="text-align: center;">&copy 2021 <span style="margin-right: 0px;">filmsio</span> movie
+            info site by <span>subradev
+                sarkar</span></p>
+    </footer>
+
+
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

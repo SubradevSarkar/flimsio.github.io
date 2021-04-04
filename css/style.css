@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    width: 1190px;
+    margin: 0px auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    color: #28275c;
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.r1{
+    position: relative;
+    margin: 0px;
+    left: 70px;
+    width: 48px;
+    height: 48px;
+    background-color: #68b5fe;
+}
+.r2{
+    position: relative;
+    margin: 0px;
+    left: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #69d9fe;
+}
+.r3{
+    position: relative;
+    margin: 0px;
+    width: 24px;
+    height: 24px;
+    background-color: #272658;
+}
+
+
+.search{ 
+    margin-top: 25%; 
+}
+
+#input{
+    width:1178px;
+    height:50px;
+    border:2px solid rgb(218, 218, 218);
+    border-radius: 6px;
+
+    text-align: center;
+
+	font-weight:semi-bold;
+	font-size: 21px;
+}
+
+#submit{
+    margin-top: 8px;
+    width:1185px;
+    height:50px;
+    background-color: rgba(87,188,255,1);
+
+    border: none;
+    border-radius: 6px;
+
+    
+	font-weight: semi-bold;
+	font-size: 21px;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.card{
+	width: 1178px;
+    height: 500px;
+	margin-top: 50px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 8px;
+}
+
+.image{
+    float: left;
+    width: 330px;
+    height: 500px;
+    height: auto;
+}
+
+#poster{
+    width: 330px;
+    height: 500px;
+    object-fit: fill;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
+}
+
+
+.details{
+    display: inline-block;
+    width: 826px;
+    padding-left: 20px;
+}
+
+
+#title{
+    margin: 0;
+    font-weight:700;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+}
+
+.base_info{
+    padding-left: 15px;
+}
+
+span{
+    margin-right: 13px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#rated{
+    border: 1px solid  #b5b5b5;
+    border-radius: 5px;
+    padding:0 4px 0 4px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.base{
+    margin-bottom: 10px;
+}
+
+.rating p{
+    display: inline-block;
+    margin: 0;
+}
+
+.rating{
+    margin-bottom: 10px;
+}
+
+#genre,#country,#langueage{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+#country{
+    background-color: #ffffff;
+    color: #242424;
+    border-radius: 5px;
+    padding:3px 3px 3px 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+p, td{
+    color: #b5b5b5;
+}
+
+.cast{
+    margin-top: 20px;
+}
+
+table{
+    border-spacing: 12px;
+}
+
+th{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+td{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#plot{
+    font-weight: 300;
+    font-size: 16px;
+    color: #81c4de;
+    padding: 10px 20px 10px 15px;
+    margin-top: 0;
+}
+
+footer{
+    width: 100vw;
+    height:40px;
+    background-color: rgb(27, 27, 35);
+    position: fixed; bottom: 0px;
+}
+.foot_p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.foot_p span{
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(252, 201, 134);
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .container{
+        width: 800px;
+        margin: 0px auto;
+    }
+
+    .search{ 
+        margin-top: 50%; 
+    }
+
+    #input{
+        width:800px;
+        height:50px;
+    }
+    
+    #submit{
+        margin-top: 8px;
+        width:807px;
+        height:50px;
+    
+    }
+
+    .card{
+        width: 800px;
+        height: 400px;
+    }
+    
+    .image{
+        width: 280px;
+        height: 400px; 
+    }
+    
+    #poster{
+        width: 280px;
+        height: 400px;
+    }
+    
+    
+    .details{
+        display: inline-block;
+        width: 508px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    
+    #title{
+        font-size: 30px;
+    }
+    
+    .base_info{
+        padding-left: 15px;
+    }
+    
+    span{
+        margin-right: 2px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    #rated{
+        border: 1px solid  #b5b5b5;
+        border-radius: 5px;
+        padding:0 4px 0 4px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    
+    .base{
+        margin-bottom: 10px;
+    }
+    
+    .rating p{
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .rating{
+        margin-bottom: 10px;
+    }
+    
+    #genre,#lan{
+        margin-top: 0px;
+        margin-bottom: 8px;
+        font-weight: 400;
+    }
+    #genre{
+        font-size: 12px;
+    }
+    
+    #country{
+        padding:2px 2px 2px 2px;
+        font-weight: bold;
+        font-size: 10px;
+        margin-right:4px;
+    }
+    
+    .cast{
+        margin-top: 8px;
+    }
+    
+    table{
+        border-spacing: 8px;
+    }
+    
+    th{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    td{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    #plot{
+        font-weight: 300;
+        font-size: 12px;
+        padding: 10px 20px 10px 15px;
+        margin-top: 0;
+    }
+
+    
+}
+
+
+@media screen and (max-width:850px) {
+
+    .container{
+        width: 500px;
+        margin: 0px auto;
+    }
+
+    .title{
+        margin-right:60px;
+    }
+
+    .search{ 
+        margin-top: 50%; 
+    }
+
+    #input{
+        width:500px;
+        height:50px;
+    }
+    
+    #submit{
+        position: relative;
+        top: 10px;
+        margin-top: 8px;
+        width:507px;
+        height:50px;
+    
+    }
+
+    .card{
+        width: 500px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .image{
+        position: relative;
+        top: -20px;
+        left: 130px;
+        width: 240px;
+        height: 340px; 
+    }
+    
+    #poster{
+        width: 240px;
+        height: 340px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    
+    .details{
+        position: relative;
+        top:0;
+        width: 480px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    
+    #title{
+        font-size: 35px;
+    }
+
+    .info{
+        text-align: center;
+    }
+    
+    .base_info{
+        margin-left: 0;
+    }
+    
+    span{
+        margin-right: 2px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    #rated{
+        border: 1px solid  #b5b5b5;
+        border-radius: 5px;
+        padding:0 4px 0 4px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    
+    .base{
+        margin-bottom: 15px;
+    }
+    
+    .rating{
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .rating p{
+        margin-left:2px;
+    }
+    
+    #genre,#lan{
+        margin-bottom: 8px;
+        font-weight: 400;
+    }
+    #genre{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    #country{
+        padding:2px 2px 2px 2px;
+        font-weight: bold;
+        font-size: 10px;
+        margin-right:4px;
+    }
+    
+    .cast{
+        margin-top:30px;
+    }
+    
+    
+    th{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    td{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    #plot{
+        font-weight: 300;
+        font-size: 12px;
+        padding: 10px 20px 10px 15px;
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    body{
+        background-image: none;
+    }
+
+    .container{
+        width: 350px;
+        margin: 0px auto;
+
+    }
+
+    .title{
+        font-size: 16px;
+    }
+    
+    .r1{
+        left: 58px;
+        width: 40px;
+        height: 40px;
+    }
+    .r2{
+        left: 24px;
+        width: 30px;
+        height: 30px;
+    }
+    .r3{
+        width: 20px;
+        height: 20px;
+    }
+    
+
+    .search{ 
+        margin-top: 50%; 
+        margin-left: 100px;
+    }
+
+    #input{
+        display: block;
+        width:150px;
+        height:30px;
+        margin-bottom: 5px;
+    }
+    
+    #submit{
+        top:0;
+        margin: 0;
+        width:157px;
+        height:30px;
+    }
+
+    .card{
+        width: 350px;
+        height: auto;
+        margin-bottom: 20px;
+        
+    }
+
+    #m_card{
+        width: 350px;
+        padding-right: 0px;
+    }
+    
+    .image{
+        position: relative;
+        left: 50px;
+        width: 257px;
+        height: 340px; 
+    }
+    
+    #poster{
+        width: 250px;
+        height: 340px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    
+    .details{
+        width: 330px;
+        padding-left: 12px;
+    }
+    
+     #plot{
+        font-weight: 300;
+        font-size: 12px;
+        padding: 10px 20px 10px 30px;
+        margin-top: 10px;
+    }
+    
+}
+
+
