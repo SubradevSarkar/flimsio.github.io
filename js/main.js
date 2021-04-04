@@ -3,7 +3,7 @@ function moviesearch() {
 
     var httprequest = new XMLHttpRequest();
 
-    var url = "http://www.omdbapi.com/?i=tt3896198&apikey=86dd1147&t=" + movie;
+    var url = "https://www.omdbapi.com/?i=tt3896198&apikey=86dd1147&t=" + movie;
 
     
 
